@@ -8,5 +8,5 @@ import java.util.List;
 
 @Repository
 public interface QuotesRepository extends JpaRepository<Quote,Long> {
-    List<String> finfQuoteById(String username);
+    List<Quote> finfQuoteById(String username);
 }
