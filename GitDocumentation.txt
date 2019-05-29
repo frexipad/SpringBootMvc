@@ -13,10 +13,11 @@ git diff master
 
 #git tag v1.0
 #git push origin v1.0
-
 #
+#develop fait nouveau branch depuis master, puis dev est deconnecter du master pour actualiser
+la branch (re)base: git rebase master develop
+#git checkout -- CONTRIBUTING.md
 #
-#
-#
-#
+#git remote add [nomcourt] [url] : example <->origin-keke-ynss represente plusieur depo
+#git checkout -b iss53: nouveau branch et switch en memetemps
 
