@@ -1,0 +1,22 @@
+#creer et switcher en memetemps: git checkout -b develop
+#Delete branch: Git branch -d <NameBranch>
+#push en repository github : git push origin <NameBranche>
+#Delete branch : git branch --delete <NameBranch>
+#add and delete details :git diff <index.html>
+git log --pretty=one
+git revert <code Head > apres ajour commit ......commit1/commit2/commitRevert
+git reset --hard <code Head> : danger il recule en arriere et elle efface les commit apres le code Head introduit.
+git diff -- <index.html>
+#stage and commit on one time :git commit -am "commit....."
+#git pull<- / git merge->
+git diff master
+
+#git tag v1.0
+#git push origin v1.0
+
+#
+#
+#
+#
+#
+
