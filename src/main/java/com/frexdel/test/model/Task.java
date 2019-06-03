@@ -1,11 +1,23 @@
 package com.frexdel.test.model;
 
+import javax.persistence.*;
+import javax.validation.constraints.NotEmpty;
+
+@Entity
 public class Task {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @NotEmpty
     private String date;
+    @NotEmpty
     private String startTime;
+    @NotEmpty
     private String stopTime;
+    @NotEmpty
     private String description;
+    @ManyToOne
+    @JoinColumn(name = "USER_EMAIL")
     private User user;
 
     public Task(String date, String startTime, String stopTime, String description, User user) {

@@ -1,20 +1,23 @@
 package com.frexdel.test.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.List;
-
-public class Roles {
+@Entity
+public class Role {
+    @Id
     private String name;
     private List<User> users;
 
-    public Roles() {
+    public Role() {
     }
 
-    public Roles(String name, List<User> users) {
+    public Role(String name, List<User> users) {
         this.name = name;
         this.users = users;
     }
 
-    public Roles(String name) {
+    public Role(String name) {
         this.name = name;
     }
 
