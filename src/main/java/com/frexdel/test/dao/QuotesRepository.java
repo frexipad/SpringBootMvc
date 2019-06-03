@@ -8,8 +8,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Repository
-public interface QuotesRepository extends JpaRepository<Quote,Long> {
+public interface QuotesRepository extends JpaRepository<Quote,Integer> {
     List<Quote> findQuoteByUserName(String username);
 
     ArrayList<String> findQuoteById(int id);
+
+
 }

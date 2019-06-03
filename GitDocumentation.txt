@@ -20,4 +20,6 @@ la branch (re)base: git rebase master develop
 #
 #git remote add [nomcourt] [url] : example <->origin-keke-ynss represente plusieur depo
 #git checkout -b iss53: nouveau branch et switch en memetemps
+#$ git checkout -b correctif
+Switched to a new branch 'correctif'
 
